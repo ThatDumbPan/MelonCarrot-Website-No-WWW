@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^meloncarrot.tk [NC]
+RewriteRule ^(.*)$ https://www.meloncarrot.tk/$1 [L,R=301]
